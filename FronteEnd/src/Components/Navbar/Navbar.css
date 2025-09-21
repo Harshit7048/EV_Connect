@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+      font-family: "Montserrat", sans-serif;
+      box-shadow: 1px 1px 10px rgb(200, 196, 196);
+}
+.logo img{
+    height: 40px;
+}
+nav{
+    width: 40%;
+    /* background-color: rebeccapurple;s */
+
+display: flex;
+justify-content: space-around;
+}
+nav a{
+    margin: 2px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 0.5px solid white;
+    transition: border 0.3s linear;
+    color: black;
+}   
+nav a:hover{
+    border-bottom: 0.5px solid black;
+
+}

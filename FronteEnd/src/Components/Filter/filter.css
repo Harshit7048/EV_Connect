@@ -1,0 +1,12 @@
+.filter{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 20px;
+}
+.filter input{
+    height: 40px;
+    margin: 5px;
+    width: 150px;
+    border: 1px solid rgb(203, 195, 195);
+    border-radius: 5px;
+}

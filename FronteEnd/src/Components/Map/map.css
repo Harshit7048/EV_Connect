@@ -1,0 +1,13 @@
+.map-container{
+    /* background-color: rebeccapurple; */
+    padding: 1rem;
+
+}
+.map-main{
+    height: 70vh;
+    background-image: url('https://opencity.in/wp-content/uploads/2023/01/bbmp-toilets.png');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
