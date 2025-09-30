@@ -10,72 +10,8 @@
     padding-bottom: 1rem;
     font-family: "Montserrat", sans-serif;
     color: rgb(188, 138, 236);
+    text-align: center;
 
 }
-.sec1-inside{
-    display: flex;
-    justify-content: space-between;
-}
-
-.results {
-    background-color: rgb(249, 246, 242);
-    max-width: 48%;
-    max-height: 500px;
-    overflow-y: scroll;
-    box-shadow: 1px 1px 10px rgb(225, 221, 221);
-}
-
-.result_final {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    display: flex;
-    margin: 10px;
-    gap: 10px;
-    border-radius: 10px;
-}
-
-.res-img {
-    width: 20%;
-}
-
-.res-img img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.res-info {
-    /* background-color: tan; */
-    padding-left: 2rem;
-    position: relative;
-}
-
-.res-info h3 {
-    font-size: 22px;
-    font-family: "Montserrat", sans-serif;
-
-
-}
-
-.res-info p {
-    font-family: "Montserrat", sans-serif;
-
-}
-.res-btn{
-    height: 40px;
-    min-width: 100px;
-    
-    margin-top: 10%;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background: rgb(158, 158, 237);
-    cursor: pointer;
-
-}
-.book{
-    /* margin-left: 30px; */
-    width: 48%;
-    /* background-color: rebeccapurple; */
-    border-left: 1px solid rgb(174, 163, 163);
-    padding-left: 2rem;
-}
+ 
+ 

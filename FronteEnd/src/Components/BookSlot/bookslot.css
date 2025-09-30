@@ -1,0 +1,46 @@
+.book-slot{
+    position: fixed;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.302);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-family: "Montserrat", sans-serif;
+
+}
+.book-box{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    position: relative;
+}
+.book-box h2{
+color: rgb(69, 61, 61);
+text-align: center;
+}
+.cut-slot{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.point-info{
+    background-color: rebeccapurple;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.p-img{
+    height: 100px;
+}
+.p-img img{
+    height: 100%;
+    width: 100px;
+    border-radius: 10px;
+}

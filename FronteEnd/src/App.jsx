@@ -4,13 +4,18 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Components/Home/Home'
+import { useState } from 'react';
 
 function App() {
    
 
+  
+
   return  (
-   
-      <BrowserRouter>
+      
+<>
+<h1 className='msg'>Working on PC Version</h1>
+ <BrowserRouter>
       <div className='main'>
         <Navbar/>
   
@@ -21,6 +26,8 @@ function App() {
       </div>
       
     </BrowserRouter>
+</>
+      
     )
 
   

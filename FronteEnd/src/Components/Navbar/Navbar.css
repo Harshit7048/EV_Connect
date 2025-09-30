@@ -30,3 +30,54 @@ nav a:hover{
     border-bottom: 0.5px solid black;
 
 }
+.ham-box{
+    height: 40px;
+    width: 40px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active-ham{
+    right: 0 !important;
+}
+
+ @media screen and (max-width:500px ) {
+    nav{
+        display: none;
+    }
+    .signup-box{
+        display: none;
+    }
+    .ham{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgb(190, 186, 186);
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        z-index: 2;
+        padding: 1rem;
+        width: 35%;
+        right: -35%;
+        transition: all 0.3s linear;
+    }
+    .ham-nav{
+        position: relative;
+        z-index: 10;
+        display: block;
+       
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .cut{
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        z-index: 99;
+    }
+ }
