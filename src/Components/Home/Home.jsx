@@ -4,6 +4,7 @@ import Filter from "../Filter/Filter";
 import Map from "../Map/Map";
 import Section_1 from "../Section_1/Section_1";
 import Section_2 from "../Section_2/Section_2";
+import Footer from "../Footer/Footer";
 
 
 const results = [
@@ -63,5 +64,6 @@ export default function Home() {
          />:<></>}
 
          <Section_2/>
+         <Footer/>
     </div>
 }

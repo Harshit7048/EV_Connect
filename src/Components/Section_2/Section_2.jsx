@@ -1,5 +1,8 @@
 import './section-2.css'
 import imgGif from '../assets/ev-img.gif'
+import Benefit from '../Benefit/Benefit'
+import Testimonial from '../Testimonial/Testimonial'
+import Member from '../Member/Member'
 
 export default function Section_2(){
     return <div
@@ -13,5 +16,9 @@ export default function Section_2(){
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rem nemo odio quae atque? Eos ipsa assumenda sed repellat porro obcaecati, quia hic?
         </p>
       </div>
+
+      <Benefit/>
+      <Testimonial/>
+      <Member/>
     </div>
 }

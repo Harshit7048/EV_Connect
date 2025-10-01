@@ -15,7 +15,7 @@ function App() {
       
 <>
 <h1 className='msg'>Working on PC Version</h1>
- <BrowserRouter>
+ <BrowserRouter basename="/EV_Connect">
       <div className='main'>
         <Navbar/>
   
