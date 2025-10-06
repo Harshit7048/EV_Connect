@@ -3,11 +3,21 @@
     padding: 1rem;
 
 }
-.map-main{
-    height: 70vh;
-    background-image: url('https://opencity.in/wp-content/uploads/2023/01/bbmp-toilets.png');
+.map-cont{
+   
+    /* background-image: url('https://opencity.in/wp-content/uploads/2023/01/bbmp-toilets.png'); */
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map { height: 350px; width: 90%;
+border-radius: 15px;
+position: relative;
+z-index: 9;
+box-shadow: 1px 1px 10px rgb(231, 210, 210);
 }
