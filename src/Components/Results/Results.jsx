@@ -1,7 +1,7 @@
 import './result.css'
 
 
-export default function Results({points =[], slot='' , setSlot , setPointName,setPointPrice , setPointImg}) {
+export default function Results({points =[], slot='' , setSlot , setPointName,setPointPrice , setPointImg,setPointBaseAddress}) {
 
 
 
@@ -14,7 +14,8 @@ export default function Results({points =[], slot='' , setSlot , setPointName,se
             <div className="res-info">
 
                 <h3>{ele.pointName}</h3>
-                <p>{ele.pointPrice} | wait Expected 5Min</p>
+                <p>{ele.pointPrice || "wait till update"}  </p>
+                <p>{ele.pointBaseAddress}</p>
                 
             </div>
             </div>
@@ -28,6 +29,7 @@ export default function Results({points =[], slot='' , setSlot , setPointName,se
                             setPointName(ele.pointName)
                             setPointPrice(ele.pointPrice)
                             setPointImg("https://imgmediagumlet.lbb.in/media/2024/08/66c5bb71ddd68e741be35541_1724234609317.jpg")
+                            setPointBaseAddress(ele.pointBaseAddress)
                         }
                     }
 

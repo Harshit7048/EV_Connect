@@ -12,6 +12,7 @@ export default function Section_1( props ) {
         setPointName={props.setPointName}
         setPointPrice={props.setPointPrice}
         setPointImg={props.setPointImg}
+        setPointBaseAddress={props.setPointBaseAddress}
         
         />
 

@@ -59,7 +59,11 @@ export default function Map({ points }) {
 
         // const group = leaflet.featureGroup(markers)
 
-        // map.fitBounds(group.getBounds())
+        // setTimeout(() => {
+        //     map.fitBounds(group.getBounds(), { padding: [50, 50] })
+        // }, 100)
+
+
 
 
 
@@ -73,7 +77,11 @@ export default function Map({ points }) {
 
 
 
+
+
+
     return <div className='map-cont'>
+        <h1>Points Near You</h1>
         <div ref={mapRef} id="map"></div>
 
     </div>
