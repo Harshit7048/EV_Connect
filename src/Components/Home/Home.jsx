@@ -96,12 +96,12 @@ export default function Home() {
 
     return <div className="home">
 
-        <Map points={results} />
-        <Section_1 points={results} slot={slot} setSlot={setSlot}
+        <Map points={results} slot={slot} setSlot={setSlot}
             setPointName={setPointName}
             setPointPrice={setPointPrice}
             setPointImg={setPointImg}
-            setPointBaseAddress={setPointBaseAddress}
+            setPointBaseAddress={setPointBaseAddress} />
+        <Section_1 points={results}
         >
 
 
